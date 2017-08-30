@@ -37,4 +37,4 @@ vignettes/*.pdf
 *.csv
 
 #tempoary enviroment
-backup.RData
+*backup.RData

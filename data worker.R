@@ -9,7 +9,7 @@ for (i in 1:nrow(initialdata)) {
             gsub(" ", "+", searched))
     browseURL(URL)
     initialdata[n, "test"] <- readline(prompt = "match?")
-    save.image("backup.RData")
+    save.image(paste(as.character(csvfile), "backup.RData"))
     n <- n+1
     
 }
